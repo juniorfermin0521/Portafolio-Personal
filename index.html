@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#3b82f6">
+    <title>Junior Fermin | Frontend Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top glass-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Junior Fermin</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    <li class="nav-item ms-3">
+                        <button id="theme-toggle" class="btn btn-outline-secondary rounded-pill">
+                            <i class="bi bi-moon-stars-fill"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <h1 class="display-3 fw-bold mb-3">Hola, soy Junior Fermin 👋</h1>
+                    <p class="lead mb-4">Frontend Developer • UI Lover • Freelancer</p>
+                    <p class="fs-5 text-muted mb-5">Desarrollador web creativo, enfocado en crear experiencias modernas, rápidas y que convierten.</p>
+                    
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="#proyectos" class="btn btn-primary btn-lg px-5 rounded-pill">Ver proyectos</a>
+                        <a href="#contacto" class="btn btn-outline-primary btn-lg px-5 rounded-pill">Contáctame</a>
+                    </div>
+
+                    <div class="mt-5 d-flex gap-4">
+                        <a href="#" class="text-decoration-none fs-3" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                        <a href="#" class="text-decoration-none fs-3" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="text-decoration-none fs-3" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-decoration-none fs-3" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-5 mt-5 mt-lg-0">
+                    <div class="profile-card mx-auto">
+                        <img src="outfit.jpg" alt="Junior Fermin - Foto de perfil" class="avatar">
+                        <h4 class="mt-4">Junior Fermin</h4>
+                        <p class="text-primary">Frontend Developer</p>
+                        <div class="tech-chips">
+                            <span class="chip">HTML</span>
+                            <span class="chip">CSS</span>
+                            <span class="chip">JS</span>
+                            <span class="chip">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Sobre mí <span class="bi bi-stars"></span></h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <p class="lead text-center mb-5">
+                        Apasionado por crear sitios web limpios, rápidos y bien estructurados. 
+                        Me especializo en interfaces intuitivas que generan resultados reales.
+                    </p>
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="d-flex gap-3">
+                                <i class="bi bi-shield-check fs-3 text-success"></i>
+                                <div>
+                                    <h5>Código Limpio</h5>
+                                    <p class="text-muted">Buenas prácticas y semántica HTML5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex gap-3">
+                                <i class="bi bi-rocket-takeoff-fill fs-3 text-primary"></i>
+                                <div>
+                                    <h5>Experiencia Rápida</h5>
+                                    <p class="text-muted">Optimización y rendimiento</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Habilidades Técnicas</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card text-center">
+                        <i class="bi bi-filetype-html fs-1 text-danger"></i>
+                        <h5>HTML5</h5>
+                        <p>Estructura semántica y accesible</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card text-center">
+                        <i class="bi bi-palette-fill fs-1 text-info"></i>
+                        <h5>CSS3</h5>
+                        <p>Diseño moderno y responsive</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card text-center">
+                        <i class="bi bi-braces fs-1 text-warning"></i>
+                        <h5>JavaScript</h5>
+                        <p>Interactividad y lógica</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card text-center">
+                        <i class="bi bi-bootstrap-fill fs-1 text-purple"></i>
+                        <h5>Bootstrap</h5>
+                        <p>Frameworks y componentes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Proyectos Destacados</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-img bg-primary bg-opacity-10 d-flex align-items-center justify-content-center">
+                            <i class="bi bi-laptop fs-1"></i>
+                        </div>
+                        <div class="p-4">
+                            <h5>Landing Page</h5>
+                            <p class="text-muted">Diseño moderno y conversión optimizada</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Ver proyecto →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-img bg-success bg-opacity-10 d-flex align-items-center justify-content-center">
+                            <i class="bi bi-cart-check fs-1"></i>
+                        </div>
+                        <div class="p-4">
+                            <h5>Tienda Online</h5>
+                            <p class="text-muted">E-commerce responsive con carrito</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Ver proyecto →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-img bg-warning bg-opacity-10 d-flex align-items-center justify-content-center">
+                            <i class="bi bi-graph-up-arrow fs-1"></i>
+                        </div>
+                        <div class="p-4">
+                            <h5>Dashboard Admin</h5>
+                            <p class="text-muted">Panel de control interactivo</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Ver proyecto →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Contáctame</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <form id="contact-form">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 rounded-pill py-3">
+                            <i class="bi bi-send me-2"></i> Enviar mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center">
+        <p class="mb-0">Hecho con ❤️, Bootstrap 5.3 y buenas prácticas • 2026</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
